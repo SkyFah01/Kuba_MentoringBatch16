@@ -26,6 +26,7 @@ public class Test1 {
         driver.findElement(By.xpath("//a[.='Input Form Submit']")).click(); // shortcut
 //        WebElement inputForm = driver.findElement(By.xpath("//a[.='Input Form Submit']"));
 //        inputForm.click();
+        //hi
 
         WebElement name = driver.findElement(By.xpath("//input[@id='name']"));
         name.sendKeys("Supattra");
